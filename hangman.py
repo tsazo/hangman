@@ -57,7 +57,7 @@ def hangman():
 
     if hangman_progress == len(hangman_list):
         print(hangman)
-        print("You lose. Try again!")
+        print(f"You lose. The word was {word}. Try again!")
     else:
         print(f"Congrats, you guessed the word {word}!")
 
